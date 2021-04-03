@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# Version 03282021
 # Container based
 # Config getcams variables for run_cameras (bash) 
 
@@ -12,22 +13,22 @@
 set -a  # export all variables
 
 # Following two variables set in both config_runcams_vars and config_getcams_vars
-HOME="/opt/getcams"
+RHOME="/opt/getcams"
 POSIX=1
 
 S3=0 
 S3CMD="s3cmd"
-S3CFG="$HOME/.s3cfg-xfer"
+S3CFG="$RHOME/.s3cfg-xfer"
 S3ARGS="-c $S3CFG --no-check-md5 --quiet"
 
-HPATH="$HOME"
-epath="$HPATH"
+RPATH="$RHOME"
+epath="$RPATH"
 params="$epath/cam_params"
 access="$epath/cam_access"
 
-logpath="$HOME/log"
+logpath="$RHOME/log"
 log="$logpath/runcamlog"
-lockpath="$HOME/lock"
+lockpath="$RHOME/lock"
 LOCK="$lockpath/RUNCAM_PID"
 
 set +a # stop exporting variables
