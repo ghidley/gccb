@@ -1,0 +1,231 @@
+#	172.16.238.10 camera-cwc cwc-axis	#ID:170:0# HPWREN Axis 2400+ S/N 00408C6140BA
+#	172.16.238.11 camera-cwc2 cwc-axis2	#ID:170:0# HPWREN Axis 2400+
+#	172.16.247.18 cam-np-2		# temp HWB axis server
+#	192.168.113.10 aa330-m7001	# AA330 axis server
+#	198.202.124.106 cnm-axis 	# ROV/etc.
+#	205.154.251.132 smer-axis2120-tcs6 #ID:60:0#
+172.16.69.10	69bravo-e-axis
+172.16.69.6	69bravo-e-mobo
+172.16.69.9	69bravo-ir-mobo
+172.16.69.5	69bravo-n-mobo
+172.16.69.7	69bravo-s-mobo
+172.16.69.11	69bravo-w-axis
+172.16.69.8	69bravo-w-mobo
+172.16.218.10	alertranchita-n-axis
+172.16.218.11	alertranchita-s-axis
+172.23.68.15	bc-mobo      #Pablo: Boulder Creek Mobotix
+172.16.215.36	bh-e-axis         #ID:230:1# SDG&E Axis
+172.16.215.31	bh-e-mobo		#ID:230:1# SDG&E Mobotix
+172.16.215.30	bh-n-mobo		#ID:230:1# SDG&E Mobotix
+172.16.215.32	bh-s-mobo		#ID:230:1# SDG&E Mobotix
+172.16.215.37	bh-w-axis         #ID:230:1# SDG&E Axis
+172.16.215.33	bh-w-mobo		#ID:230:1# SDG&E Mobotix
+172.16.202.50	bi-axis                 #ID:230:1# SDG&E Axis Birch Hill
+172.16.249.85	bl-e-mobo #ID:230:1# SDG&E Mobotix, Black Mtn.
+172.16.249.84	bl-n-mobo #ID:230:1# SDG&E Mobotix, Black Mtn.
+172.16.249.86	bl-s-mobo #ID:230:1# SDG&E Mobotix, Black Mtn.
+172.16.249.87	bl-w-mobo #ID:230:1# SDG&E Mobotix, Black Mtn.
+#172.16.231.20	bl2-axis            #ID:230:1# SDG&E Axis PTZ camera
+172.16.249.61	bl2-axis            #ID:230:1# SDG&E Axis PTZ camera
+172.16.150.14	bm-axis         # Axis Q6055-E
+172.16.150.11	bm-e-mobo       # Mobotix M15
+172.16.150.10	bm-n-mobo       # Mobotix M15
+172.16.150.12	bm-s-mobo       # Mobotix M15
+172.16.150.13	bm-w-mobo       # Mobotix M15
+172.23.66.10	camera-cwc cwc-axis     #ID:170:0# HPWREN Axis 2400+
+172.23.66.12	camera-cwc2 cwc-axis2   #ID:170:0# HPWREN Axis 2400+
+172.16.202.51	ch-axis                 #ID:230:1# SDG&E Axis Coronado Hills
+172.16.147.2	cnmz1-axis
+172.16.147.66	cnmz3-axis
+172.16.137.20	cowles-axis      #Frank Vernon, Axis PTZ camera
+172.16.137.21	cowles-s-axis	 #Frank Vernon, Axis PTZ camera
+172.16.216.142	cp-e-mobo
+172.16.216.145	cp-n-axis
+172.16.216.141	cp-n-mobo
+172.16.216.146	cp-s-axis
+172.16.216.143	cp-s-mobo
+172.16.216.144	cp-w-mobo
+172.16.72.40	cynbk-1-axis  # Alert Axis PTZ #1
+172.16.72.41	cynbk-2-axis  # Alert Axis PTZ #2
+172.16.64.199	dwpgm-e-mobo
+172.16.64.202	dwpgm-n-axis
+172.16.64.198	dwpgm-n-mobo
+172.16.64.203	dwpgm-s-axis
+172.16.64.200	dwpgm-s-mobo
+172.16.64.201	dwpgm-w-mobo
+172.16.249.94	felicita-2-axis    # Axis PTZ
+172.16.249.90	felicita-axis felicita-1-axis     #ID:160:0# Axis PTZ at Neal Driscoll residence
+172.23.64.28	felicita-axis-old                   #ID:160:0# Axis PTZ at Neal Driscoll residence
+172.16.207.34	hp-axis         #ID:230:1# SDG&E Axis
+172.16.207.31	hp-e-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.207.30	hp-n-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.207.32	hp-s-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.207.33	hp-w-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.74.10	latem-1-axis  # Alert Axis PTZ #1
+172.16.74.11	latem-2-axis  # Alert Axis PTZ #2
+172.16.138.133	lp-e-mobo
+172.16.138.136	lp-n-axis
+172.16.138.132	lp-n-mobo
+172.16.138.137	lp-s-axis
+172.16.138.134	lp-s-mobo
+172.16.138.135	lp-w-mobo
+172.16.152.163	marconi-e-mobo
+172.16.152.167	marconi-n-axis
+172.16.152.162	marconi-n-mobo
+172.16.152.168	marconi-s-axis
+172.16.152.164	marconi-s-mobo
+172.16.152.165	marconi-w-mobo
+172.16.251.82	mg-e-mobo       # Mobotix M15
+172.16.251.81	mg-n-mobo       # Mobotix M15
+172.16.251.83	mg-s-mobo       # Mobotix M15
+172.16.251.84	mg-w-mobo       # Mobotix M15
+172.16.71.134	mlee-1-axis       # Alert Axis PTZ #1
+172.16.71.135	mlee-2-axis       # Alert Axis PTZ #2
+172.16.194.142	mlo-e-mobo
+172.16.194.145	mlo-n-axis
+172.16.194.141	mlo-n-mobo
+172.16.194.146	mlo-s-axis
+172.16.194.143	mlo-s-mobo
+172.16.194.144	mlo-w-mobo
+172.16.196.28	mp-axis                 #ID:230:1# SDG&E Axis
+172.16.196.25	mp-e-mobo ml-e-mobo		#ID:230:1# SDG&E Mobotix
+172.16.196.24	mp-n-mobo ml-n-mobo		#ID:230:1# SDG&E Mobotix
+172.16.196.26	mp-s-mobo ml-s-mobo		#ID:230:1# SDG&E Mobotix
+172.16.196.27	mp-w-mobo ml-w-mobo		#ID:230:1# SDG&E Mobotix
+172.16.230.8	ms-n-mobo
+172.16.129.30	np-axis         #ID:230:1# SDG&E Axis, North Peak
+172.16.138.147	om-e-mobo
+172.16.138.150	om-n-axis
+172.16.138.146	om-n-mobo
+172.16.138.151	om-s-axis
+172.16.138.148	om-s-mobo
+172.16.138.149	om-w-mobo
+172.16.211.133	pi-e-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.211.141	pi-ir-mobo
+172.16.211.136	pi-n-axis pi-axis       #ID:230:1# SDG&E Axis
+172.16.211.132	pi-n-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.211.137	pi-s-axis               #ID:230:1# SDG&E Axis
+172.16.211.134	pi-s-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.211.135	pi-w-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.229.30	rm-axis     #ID:230:1# SDG&E Axis, Red Mountain
+172.16.229.26	rm-e-mobo	#ID:230:1# SDG&E Mobotix
+172.16.229.25	rm-n-mobo	#ID:230:1# SDG&E Mobotix
+172.16.229.27	rm-s-mobo	#ID:230:1# SDG&E Mobotix
+172.16.229.28	rm-w-mobo	#ID:230:1# SDG&E Mobotix
+172.16.152.179	rmv-e-mobo
+172.16.152.183	rmv-n-axis
+172.16.152.178	rmv-n-mobo
+172.16.152.183	rmv-s-axis
+172.16.152.180	rmv-s-mobo
+172.16.152.181	rmv-w-mobo
+172.16.154.73	sclm-e-mobo
+172.16.154.70	sclm-n-axis
+172.16.154.72	sclm-n-mobo
+172.16.154.71	sclm-s-axis
+172.16.154.74	sclm-s-mobo
+172.16.154.75	sclm-w-mobo
+172.16.192.24	sdsc-e-mobo
+172.23.43.20	sgbf-axis sgbf-n-axis #ID:30:0# Glen
+172.23.43.21	sgbf-mobo   #ID:30:0# Glen
+172.16.149.142	signal-e-mobo
+172.16.149.145	signal-n-axis
+172.16.149.141	signal-n-mobo
+172.16.149.146	signal-s-axis
+172.16.149.143	signal-s-mobo
+172.16.149.144	signal-w-mobo
+172.16.154.93	sjh-e-mobo
+172.16.154.90	sjh-n-axis
+172.16.154.92	sjh-n-mobo
+172.16.154.91	sjh-s-axis
+172.16.154.94	sjh-s-mobo
+172.16.154.95	sjh-w-mobo
+172.16.138.163	sm-e-mobo
+172.16.138.166	sm-n-axis
+172.16.138.162	sm-n-mobo
+172.16.138.167	sm-s-axis
+172.16.138.164	sm-s-mobo
+172.16.138.165	sm-w-mobo
+172.23.37.63	smer-axis223m		# Paul Hubbard
+172.23.37.45	smer-axis240-ss		#ID:60:0# Pablo
+172.23.37.97	smer-axisdome		#ID:60:0# Pablo
+172.23.37.58	smer-gorge-axis New-camera.smer.hpwren.ucsd.edu #ID:60:0# Pablo
+172.23.37.57	smer-ns-axis New-smer-northcam New-gorge-camera.smer.hpwren.ucsd.edu #ID:60:0# Pablo
+172.16.224.146	smer-tcs10-1-mobo
+172.16.224.147	smer-tcs10-2-mobo
+172.16.224.85	smer-tcs10-mobo #ID:60:0# Pablo: Overlook TCS10 Mobotix Cam
+172.16.224.21	smer-tcs3-mobo			#ID:60:0#
+172.23.37.59	smer-tcs6-axis New-smer-axis2120-tcs6	#ID:60:0# Pablo
+172.16.224.134	smer-tcs8-mobo
+172.16.224.83	smer-tcs8-mobo #ID:60:0# Pablo: Access TCS8 Mobotix Camera
+172.16.224.140	smer-tcs9-e-mobo
+172.16.224.84	smer-tcs9-mobo #ID:60:0# Pablo: High Point TCS9 Mobotix Cam
+172.16.224.139	smer-tcs9-n-mobo
+172.16.224.141	smer-tcs9-s-mobo
+172.16.224.142	smer-tcs9-w-mobo
+172.16.251.25	so-e-mobo		#ID:230:1# SDG&E Mobotix
+172.16.251.24	so-n-mobo		#ID:230:1# SDG&E Mobotix
+172.16.251.26	so-s-mobo		#ID:230:1# SDG&E Mobotix
+172.16.251.27	so-w-mobo		#ID:230:1# SDG&E Mobotix
+172.16.151.51	sojr-e-mobo
+172.16.151.54	sojr-n-axis
+172.16.151.50	sojr-n-mobo
+172.16.151.55	sojr-s-axis
+172.16.151.52	sojr-s-mobo
+172.16.151.53	sojr-w-mobo
+172.16.144.25	sp-e-axis sp-n-axis   # Axis Q6055-E
+172.16.144.22	sp-e-mobo   # Mobotix M16
+172.16.144.21	sp-n-mobo   # Mobotix M16
+172.16.144.23	sp-s-mobo   # Mobotix M16
+172.16.144.26	sp-w-axis sp-s-axis   # Axus Q6055-E
+172.16.144.24	sp-w-mobo   # Mobotix M16
+172.16.152.147	starr-e-mobo
+172.16.152.151	starr-n-axis
+172.16.152.146	starr-n-mobo
+172.16.152.152	starr-s-axis
+172.16.152.148	starr-s-mobo
+172.16.152.149	starr-w-mobo
+172.16.72.10	svct-1-axis # Alert Axis #1
+172.16.72.11	svct-2-axis # Alert Axis #2
+#128.111.236.159	sy-axis			# Santa Ynez Peak
+#128.111.236.156	sy-e-mobo		# Santa Ynez Peak
+#128.111.236.155	sy-n-mobo		# Santa Ynez Peak
+#128.111.236.157	sy-s-mobo		# Santa Ynez Peak
+#128.111.236.158	sy-w-mobo		# Santa Ynez Peak
+128.111.120.118	syp-axis		# Santa Ynez Peak
+128.111.120.115	syp-e-mobo		# Santa Ynez Peak
+128.111.120.114	syp-n-mobo		# Santa Ynez Peak
+128.111.120.116	syp-s-mobo		# Santa Ynez Peak
+128.111.120.117	syp-w-mobo		# Santa Ynez Peak
+172.23.65.198	tje-br1-mobo tje-1-mobo
+172.23.65.199	tje-br2-mobo tje-2-mobo
+172.23.44.10	tp-axis         #ID:180:1# Toro Peak Axis camera HPWREN-958
+172.16.198.35	tp-e-mobo		#ID:230:1# SDG&E Mobotix
+172.16.198.38	tp-n-axis		#ID:230:1# SDG&E Axis
+172.16.198.34	tp-n-mobo		#ID:230:1# SDG&E Mobotix
+172.16.198.39	tp-s-axis		#ID:230:1# SDG&E Axis
+172.16.198.36	tp-s-mobo		#ID:230:1# SDG&E Mobotix
+172.16.198.37	tp-w-mobo		#ID:230:1# SDG&E Mobotix
+172.16.64.145	ucsb-axis ucsb-e-axis
+172.16.64.147	ucsb-w-axis
+172.16.64.144	victrace-axis victrace-e-axis
+172.16.64.140	victrace-ne-mobo
+172.16.64.141	victrace-nw-mobo
+172.16.64.146	victrace-w-axis
+192.168.240.107	vo-e-mobo		#ID:230:1# SDG&E Mobotix
+192.168.240.106	vo-n-mobo		#ID:230:1# SDG&E Mobotix
+192.168.240.108	vo-s-mobo 	#ID:230:1# SDG&E Mobotix
+192.168.240.109	vo-w-mobo 	#ID:230:1# SDG&E Mobotix
+172.16.217.30	vs-axis      #Frank Vernon, Axis PTZ camera
+172.16.213.39	wc-axis         #ID:230:1# SDG&E Axis
+172.16.213.36	wc-e-mobo mw-e-mobo	#ID:230:1# SDG&E Mobotix
+172.16.213.35	wc-n-mobo		#ID:230:1# SDG&E Mobotix
+172.16.213.37	wc-s-mobo		#ID:230:1# SDG&E Mobotix
+172.16.213.38	wc-w-mobo		#ID:230:1# SDG&E Mobotix
+172.16.64.174	wilson-e-axis
+172.16.64.171	wilson-e-mobo
+172.16.64.170	wilson-n-mobo
+172.16.64.172	wilson-s-mobo
+172.16.64.175	wilson-w-axis
+172.16.64.173	wilson-w-mobo
+172.16.72.72	wstrg-1-axis  # Alert Axis PTZ #1
+172.16.72.73	wstrg-2-axis  # Alert Axis PTZ #2
