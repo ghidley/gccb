@@ -1,5 +1,5 @@
 # Config getcams variables for getcams*.pl
-# Version 03282021
+# Version 04042021
 # Container based
 # Variables for perl getcams fetch libraries
 
@@ -29,6 +29,6 @@ our $LOGS 		=	"$RPATH/log";
 our $TVS 		=	"$RPATH/tvpattern-small.jpg";
 our $PW 		=	"$RPATH/cam_access";  
 our $ADIR		=	"/Data/archive";                   # Archival image location
-our $TDIR		=	"/Data-local/scratch";             # Temp/local faster location for interim processing
+our $TDIR		=	"/opt/getcams/scratch";             # Temp/local faster location for interim processing
 our $CDIR		=	"$ADIR/incoming/cameras";         # Current image location (for web page collage)
 1;
