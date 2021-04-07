@@ -13,7 +13,7 @@ DATADIR=/Data
 INCOMING=$(ARCHDIR)/incoming/cameras/tmp
 RUNDIR=/opt/getcams
 CONTROLFILES=cam_access_format cam_params cam_access
-LOCALDIR=/Data-local/scratch
+LOCALDIR=scratch
 SYSLOCAL=/var/local/hpwren
 LOCKDIR=$(SYSLOCAL)/lock
 LOGDIR=$(SYSLOCAL)/log
@@ -25,7 +25,8 @@ echo:
 	@echo Usage: make [test, start, stop, restart ...] -- getcams/runcams process management
 	@echo Usage: make [enable, disable, status, sstart, resart, sstop ...] -- system service management
 	
-
+scratch:
+	mkdir scratch
 update:
 	sudo -u hpwren cp $(DEVFILES) $(RUNDIR)
 

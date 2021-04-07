@@ -29,6 +29,6 @@ our $LOGS 		=	"$RPATH/log";
 our $TVS 		=	"$RPATH/tvpattern-small.jpg";
 our $PW 		=	"$RPATH/cam_access";  
 our $ADIR		=	"/Data/archive";                   # Archival image location
-our $TDIR		=	"/opt/getcams/scratch";             # Temp/local faster location for interim processing
+our $TDIR		=	"scratch";             # Temp/local faster location for interim processing
 our $CDIR		=	"$ADIR/incoming/cameras";         # Current image location (for web page collage)
 1;

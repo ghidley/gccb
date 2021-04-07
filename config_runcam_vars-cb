@@ -12,9 +12,11 @@
 
 set -a  # export all variables
 
-# Following two variables set in both config_runcams_vars and config_getcams_vars
+# Following three variables set in both config_runcams_vars and config_getcams_vars
 RHOME="/opt/getcams"
+TDIR="scratch"
 POSIX=1
+
 
 S3=0 
 S3CMD="s3cmd"
