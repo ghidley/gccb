@@ -18,6 +18,10 @@ rebuild: Dockerfile
 clone:
 	rm -rf getcams ; git clone --single-branch https://github.com/ghidley/getcams.git
 
+purge:
+	docker system prune -af
+	docker image prune -af
+
 push:
 	docker login -u ghidley
 	docker tag gccb ghidley/gccb
