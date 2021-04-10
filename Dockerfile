@@ -19,7 +19,10 @@ ENV RHOME="/opt/getcams"
 ENV RPATH="/opt/getcams"
 ENV TZ="America/Los_Angeles"
 # Inject config files here ...
-ENTRYPOINT ["/bin/sh", "-c", "cat /opt/getcams/hosts-cb >> /etc/hosts && mkdir scratch && sleep infinity"]
+ENTRYPOINT ["/bin/sh", "-c", \
+	"cat /opt/getcams/hosts-cb >> /etc/hosts && \
+	mkdir scratch && s\
+	leep infinity"]
 #ENTRYPOINT ["/bin/sh, "-c", "cat /opt/getcams/hosts-cb >> /etc/hosts" && exec /run_cameras"]
 #ENTRYPOINT ["/run_cameras"]
 #CMD ["-I"]
