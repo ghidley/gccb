@@ -4,6 +4,8 @@
 #	192.168.113.10 aa330-m7001	# AA330 axis server
 #	198.202.124.106 cnm-axis 	# ROV/etc.
 #	205.154.251.132 smer-axis2120-tcs6 #ID:60:0#
+172.16.44.158	camacq1
+172.16.148.41	uci-camacq1 
 172.16.69.10	69bravo-e-axis
 172.16.69.6	69bravo-e-mobo
 172.16.69.9	69bravo-ir-mobo

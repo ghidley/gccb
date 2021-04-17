@@ -1,0 +1,19 @@
+# docker-compose.yml file 041121
+version: "3.7"
+services:
+  gccb:
+    container_name: "gccb"
+    build:
+        context: '.'
+        dockerfile: "./Dockerfile"
+    #image: "ghidley/gccb"
+    image: "gccb"
+    volumes:
+        - /home/ghidl/k8/root/Data:/Data
+    working_dir: /opt/getcams
+    environment:
+        - "RHOME=/opt/getcams"
+        - "RPATH=/opt/getcams"
+        - "TZ=America/Los_Angeles"
+
+
