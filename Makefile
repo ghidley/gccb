@@ -1,9 +1,9 @@
 # Makefile for container based getcams system
 # v.041121
-ALLFILES=Makefile* cam_* config* Dockerfile README.md hosts-cb getcams-job.yaml DCF docker-entrypoint.sh  entry_commands.sh
-#ALLFILES=Makefile cam_access config_getcams_vars-cb Dockerfile README.md cam_params-cb config_runcam_vars-cb  hosts-cb
+ALLFILES=Makefile* cam_* config* Dockerfile README.md hosts-cb getcams-job.yaml compose.yaml docker-entrypoint.sh  entry_commands.sh
+#ALLFILES=Makefile cam_access compose.yaml config_getcams_vars-cb Dockerfile README.md cam_params-cb config_runcam_vars-cb  hosts-cb
 
-
+#Build and run via docker
 all: Dockerfile
 	docker build -t gccb .
 	-docker run --rm -it -v /home/ghidl/k8/root/Data:/Data gccb bash
