@@ -17,6 +17,10 @@ RHOME="/opt/getcams"
 TDIR="scratch"
 POSIX=1
 
+# hang_limit is the max delay in minutes for logfile updates before considering
+# getcams proc is hung  ... must be negative to use in find w/-mmin flag
+hang_limit="-10"
+
 
 S3=0 
 S3CMD="s3cmd"
